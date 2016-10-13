@@ -5,6 +5,7 @@ go:
   - 1.5
   - 1.6
   - 1.7
+  - release
   - tip
 
 install: (cd netconf; go get -d -v ./... && go build -v ./...)
